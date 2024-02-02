@@ -3,14 +3,18 @@
 ## Installation
 torch == 1.13.1
 geopy == 2.3.0
+
 autogluon == 0.8.2
+
 keras = 2.1.5
+
 scipy == 1.10.1
+
 skikit-learn == 1.2.2
 
 ## Structure
 
-```
+
 ├── **checkpoints**
 └── **OpenTest**
     ├── __*.py__
@@ -21,7 +25,7 @@ skikit-learn == 1.2.2
         ├── another.js
         ├── constants.js
         └── index.js
-```
+
 The main folder is composed by **checkpoints** and **OpenTest**, where the former stores trained model, distinguished by their suffix according to differnt experiment settings. 
 
 Under the main folder, there are two types of files: __*.py__ and __*.ipynb__. In principle, the __*.py__ are scripts for model training and stores trained model under **checkpoint** 
