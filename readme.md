@@ -45,7 +45,7 @@ As mentioned, ```checkpoints``` stores trained triplet and siamese model by __to
 `{modelType}_emb_{embedding size}_m_{margin_value}_bs_{batch_size}_{suffix_in_experiments}`
 
 ## Reference
-The original data __DICHASUS-cf0x__ is accessed from lab in University of Stuttgard, based on indoor experiments: 
+The original data __DICHASUS-cf0x__ is accessed from lab in University of Stuttgart, based on indoor experiments: 
 <https://dichasus.inue.uni-stuttgart.de/datasets/>
 
 Besides, part of the work has refered to their tutorials:
